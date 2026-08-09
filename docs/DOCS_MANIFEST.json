@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "product": "CERVAULT",
+  "docs_version": "5.3",
+  "language": "en",
+  "navigation": [
+    {"order": 1, "slug": "overview", "title": "Overview", "file": "README.md"},
+    {"order": 2, "slug": "get-started", "title": "Get Started", "file": "GET_STARTED.md"},
+    {"order": 3, "slug": "using-cervault", "title": "Using CERVAULT", "file": "USING_CERVAULT.md"},
+    {"order": 4, "slug": "why-cervault", "title": "Why CERVAULT", "file": "WHY_CERVAULT.md"},
+    {"order": 5, "slug": "ai-clients", "title": "AI Clients", "file": "AI_CLIENTS.md"},
+    {"order": 6, "slug": "security-privacy", "title": "Security & Privacy", "file": "SECURITY_AND_PRIVACY.md"},
+    {"order": 7, "slug": "troubleshooting", "title": "Troubleshooting & FAQ", "file": "TROUBLESHOOTING.md"}
+  ],
+  "website_top_level_routes": ["home", "docs", "members", "pricing"],
+  "download_is_cta_not_route": true,
+  "public_release_rule": "Only signed, published releases may be linked from the Download CTA."
+}
