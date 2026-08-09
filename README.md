@@ -1,4 +1,4 @@
-﻿# CERVAULT
+# CERVAULT
 
 CERVAULT is a governed execution layer for AI work. This repository is the official public distribution and release surface for CERVAULT.
 
@@ -17,6 +17,15 @@ CERVAULT targets Windows x64/ARM64, Linux x64/ARM64, and macOS Intel/Apple Silic
 ## Repository boundary
 
 This public repository intentionally does not contain CERVAULT confidential runtime source, private governance implementation, credentials, signing material, or internal evidence. It is a distribution surface, not the private development monorepo.
+
+
+## Current public preview
+
+**CERVAULT v5.3.0 Wave D Public Preview** is available for Windows x64/ARM64, Linux x64/ARM64, and macOS Intel/Apple Silicon.
+
+- Release: https://github.com/MARSCI-DIAGNOSTICS/cervault/releases/tag/v5.3.0-wave-d-preview.1
+- Integrity: `SHA256SUMS.txt` is attached to the release.
+- Posture: acceptance-verified public preview; binaries are unsigned unless an asset explicitly states otherwise.
 
 ## Security
 
