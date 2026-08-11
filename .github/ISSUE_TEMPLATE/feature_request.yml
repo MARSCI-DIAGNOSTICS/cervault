@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a CERVAULT capability or integration
+title: "[Feature]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the control problem first, not only the implementation you want. Do not include credentials, private customer data, or confidential source.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / job to be done
+      description: What AI workflow is currently unsafe, hard to govern, or unnecessarily manual?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current workaround
+      description: What do you do today instead?
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired governed outcome
+      description: What should CERVAULT authorize, prevent, record, or recover?
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: AI client / agent involved
+      placeholder: Claude Code, Codex, Gemini CLI, custom agent, etc.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Success criteria
+      description: What observable result would prove this feature works?

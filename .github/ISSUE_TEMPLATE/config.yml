@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, billing, or privacy support
+    url: https://cervault.marsci-diagnostics.com/support/
+    about: Use private support for account, billing, privacy, or other non-public matters.
+  - name: Security and privacy guidance
+    url: https://cervault.marsci-diagnostics.com/docs/security-privacy/
+    about: Read the security boundary before sharing diagnostic information.
