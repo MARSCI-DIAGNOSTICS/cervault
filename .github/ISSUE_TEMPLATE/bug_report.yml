@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible CERVAULT problem
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include API keys, passwords, access tokens, signing material, payment-card data, or private customer data.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows x64
+        - Windows ARM64
+        - macOS Apple Silicon / ARM64
+        - macOS Intel / x64
+        - Linux x64
+        - Linux ARM64
+        - Docker headless runtime
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CERVAULT version
+      placeholder: "5.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest safe sequence that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Remove credentials, private source, customer data, and secrets before posting.
